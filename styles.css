@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(62, 143, 175);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: rgb(8, 65, 1);
+    position: fixed;
+    background-size: 100%;
+    background-position: top;
+    color: rgb(255, 255, 255);
+    height: 75px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid;
+    border-color: black;
+}
+header a{
+    color: rgb(8, 65, 1);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+header .texts a{
+    background-color: rgb(255, 240, 171);
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    padding: 10px;
+}
+header .logo a{
+    background-image: url("images/crown.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -999999px;
+    top: -40px;
+    width: 300px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.feature-box{
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.feature-box div{
+    display: inline-block;
+    width: 100%;
+    margin: 1px;
+}
+.hands{
+    background-color: rgb(255, 240, 171);
+    background-image: url("images/handshake.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 750px;
+}
+.feature-box.sales div{
+    background-color: rgb(43, 226, 98);
+    height: 1000px;
+}
+.feature-box.closeouts div{
+    background-color: rgb(195, 25, 218);
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+footer{
+    background: rgb(250, 183, 183);
+    padding: 10px 20px;
+}
